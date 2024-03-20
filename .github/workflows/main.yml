@@ -16,7 +16,7 @@ jobs:
           dotnet-version: '3.1'
       - uses: cryptic-wizard/run-specflow-tests@v1.3.3
         with:
-          test-assembly-path: SpecFlowCalculator/bin/Debug/netcoreapp3.1
-          test-assembly-dll: SpecFlowCalculator.dll
+          test-assembly-path: SpecFlowCalculator.Specs/bin/Debug/netcoreapp3.1
+          test-assembly-dll: SpecFlowCalculator.Specs.dll
           test-execution-json: TestExecution.json
           output-html: MyTestResults.html
