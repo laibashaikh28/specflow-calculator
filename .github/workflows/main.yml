@@ -14,7 +14,7 @@ jobs:
       - uses: actions/setup-dotnet@v4
         with:
           dotnet-version: '3.1'
-      - uses: actions/cryptic-wizard/run-specflow-tests@v1.3.3
+      - uses: cryptic-wizard/run-specflow-tests@v1.3.3
         with:
           test-assembly-path: SpecflowCalculator/bin/Debug/netcoreapp3.1
           test-assembly-dll: SpecflowCalculator.dll
