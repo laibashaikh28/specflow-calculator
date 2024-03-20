@@ -17,5 +17,5 @@ jobs:
       - uses: cryptic-wizard/run-specflow-tests@v1.3.3
         with:
           test-assembly-path: SpecflowCalculator/bin/Debug/netcoreapp3.1
-          test-assembly-dll: SpecflowCalculator.dll
+          test-assembly-dll: SpecflowCalculator.Specs.dll
           output-html: MyTestResults.html
