@@ -18,4 +18,5 @@ jobs:
         with:
           test-assembly-path: SpecFlowCalculator/bin/Debug/netcoreapp3.1
           test-assembly-dll: SpecFlowCalculator.dll
+          test-execution-json: TestExecution.json
           output-html: MyTestResults.html
