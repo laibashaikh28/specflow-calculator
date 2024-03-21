@@ -22,13 +22,3 @@ jobs:
           output-html: MyTestResults.html
           logger: trx
           logger-file-name: MyTestResults.trx
-      - name: Configure Git
-        run: |
-          git config --global user.name "laibashaikh28"
-          git config --global user.email "laibaovais05@gmail.com"
-      - name: Add changes
-        run: git add -A
-      - name: Commit changes
-        run: git commit -m "commit message"
-      - name: Push changes
-        run: git push
