@@ -17,8 +17,6 @@ namespace SpecFlowCalculator.Specs.Steps
         }
 
         [Given("the first number is (.*)")]
-
-        [Given("the first number is (.*)")]
         public void GivenTheFirstNumberIs(int number)
         {
             _calculator.FirstNumber = number;
