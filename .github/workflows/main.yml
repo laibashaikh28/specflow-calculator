@@ -7,6 +7,11 @@ on:
   workflow_dispatch:
 
 jobs:
+  writeResults:
+    runs-on: ubuntu-latest
+    steps:
+    - run: sudo chmod +w ../../TestResults/MyTestResults.trx
+        
   specflowtests:
     runs-on: ubuntu-latest
     steps:
@@ -22,3 +27,4 @@ jobs:
           output-html: MyTestResults.html
           logger: trx
           logger-file-name: MyTestResults.trx
+  
