@@ -1,0 +1,22 @@
+name: Specflow workflow
+
+on:
+  push:
+    branches: 
+      - master
+  workflow_dispatch:
+
+jobs:
+  specflowtests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '3.1'
+      - uses: cryptic-wizard/run-specflow-tests@v1.3.3
+        with:
+          test-assembly-path: SpecFlowCalculator.Specs/bin/Debug/netcoreapp3.1
+          test-assembly-dll: SpecFlowCalculator.Specs.dll
+          test-execution-json: TestExecution.json
+          output-html: MyTestResults.html
