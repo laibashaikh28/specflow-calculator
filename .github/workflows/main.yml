@@ -22,3 +22,8 @@ jobs:
           output-html: MyTestResults.html
           logger: trx
           logger-file-name: MyTestResults.trx
+      - name: Upload TRX file as artifact
+      - uses: actions/upload-artifact@v2
+        with:
+          name: test-results
+          path: MyTestResults.trx
