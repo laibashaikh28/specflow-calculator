@@ -19,4 +19,7 @@ jobs:
           test-assembly-path: SpecFlowCalculator.Specs/bin/Debug/netcoreapp3.1
           test-assembly-dll: SpecFlowCalculator.Specs.dll
           test-execution-json: TestExecution.json
-          output-html: MyTestResults.html
+          output-html: ../../MyTestResults.html
+          logger: trx
+          logger-file-name: ../../MyTestResults.trx
+          upload-artifact: false
