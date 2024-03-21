@@ -10,7 +10,7 @@ jobs:
   writeResults:
     runs-on: ubuntu-latest
     steps:
-    - run: sudo chmod +w ../../TestResults/MyTestResults.trx
+    - run: sudo chmod +w /home/runner/work/specflow-calculator/specflow-calculator/SpecFlowCalculator.Specs/TestResults/MyTestResults.trx
         
   specflowtests:
     runs-on: ubuntu-latest
