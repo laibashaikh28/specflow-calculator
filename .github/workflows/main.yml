@@ -22,8 +22,6 @@ jobs:
           output-html: MyTestResults.html
           logger: trx
           logger-file-name: MyTestResults.trx
-      - name: Checkout repository
-        uses: actions/checkout@v2
       - name: Configure Git
         run: |
           git config --global user.name "laibashaikh28"
