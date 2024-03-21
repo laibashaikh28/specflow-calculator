@@ -1,0 +1,5 @@
+is_global = true
+build_property.RootNamespace = SpecFlowCalculator.Specs
+build_property.ProjectDir = /home/runner/work/specflow-calculator/specflow-calculator/SpecFlowCalculator.Specs/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

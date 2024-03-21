@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2aSr8SLgVd9w+bYqKw+CjrsnKfHQiiio84Gnfdw3UdjsWASmNjc3Y09z/91Vy9myo6j9cfH/nVYpblYGuEix2Q==",
+  "dgSpecHash": "iuZJfDzKbYuaRzIPfYrgdZCzFO+6tsAiOg17AwXo6FXD6mAX8qoZswlyYk3qU37XqIS74vwvGNGYWQQ1KTtukg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\laiba.ovais\\source\\repos\\SpecFlowCalculator\\SpecFlowCalculator\\SpecFlowCalculator.csproj",
+  "projectFilePath": "/home/runner/work/specflow-calculator/specflow-calculator/SpecFlowCalculator/SpecFlowCalculator.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

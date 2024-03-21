@@ -1,0 +1,10 @@
+/home/runner/work/specflow-calculator/specflow-calculator/SpecFlowCalculator/bin/Release/netcoreapp3.1/SpecFlowCalculator.deps.json
+/home/runner/work/specflow-calculator/specflow-calculator/SpecFlowCalculator/bin/Release/netcoreapp3.1/SpecFlowCalculator.dll
+/home/runner/work/specflow-calculator/specflow-calculator/SpecFlowCalculator/bin/Release/netcoreapp3.1/SpecFlowCalculator.pdb
+/home/runner/work/specflow-calculator/specflow-calculator/SpecFlowCalculator/obj/Release/netcoreapp3.1/SpecFlowCalculator.GeneratedMSBuildEditorConfig.editorconfig
+/home/runner/work/specflow-calculator/specflow-calculator/SpecFlowCalculator/obj/Release/netcoreapp3.1/SpecFlowCalculator.AssemblyInfoInputs.cache
+/home/runner/work/specflow-calculator/specflow-calculator/SpecFlowCalculator/obj/Release/netcoreapp3.1/SpecFlowCalculator.AssemblyInfo.cs
+/home/runner/work/specflow-calculator/specflow-calculator/SpecFlowCalculator/obj/Release/netcoreapp3.1/SpecFlowCalculator.csproj.CoreCompileInputs.cache
+/home/runner/work/specflow-calculator/specflow-calculator/SpecFlowCalculator/obj/Release/netcoreapp3.1/SpecFlowCalculator.sourcelink.json
+/home/runner/work/specflow-calculator/specflow-calculator/SpecFlowCalculator/obj/Release/netcoreapp3.1/SpecFlowCalculator.dll
+/home/runner/work/specflow-calculator/specflow-calculator/SpecFlowCalculator/obj/Release/netcoreapp3.1/SpecFlowCalculator.pdb
