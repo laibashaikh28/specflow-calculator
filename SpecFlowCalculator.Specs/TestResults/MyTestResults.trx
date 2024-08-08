@@ -1,23 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<TestRun id="f01c37c6-b618-44a9-b6b2-aa40e9b911aa" name="@fv-az520-176 2024-08-08 06:32:26" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
-  <Times creation="2024-08-08T06:32:26.5419972+00:00" queuing="2024-08-08T06:32:26.5419973+00:00" start="2024-08-08T06:32:24.4476773+00:00" finish="2024-08-08T06:32:26.5495932+00:00" />
-  <TestSettings name="default" id="b1853c54-5b95-4d95-adbb-85d79e85072a">
-    <Deployment runDeploymentRoot="_fv-az520-176_2024-08-08_06_32_26" />
+<TestRun id="34336b4e-c2a8-4c7f-a250-bd843fd79e50" name="@fv-az1242-41 2024-08-08 09:54:43" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2024-08-08T09:54:43.3215918+00:00" queuing="2024-08-08T09:54:43.3215919+00:00" start="2024-08-08T09:54:40.8163820+00:00" finish="2024-08-08T09:54:43.3291507+00:00" />
+  <TestSettings name="default" id="01a7409b-b4d3-4a9e-9211-02e5b5e1eadf">
+    <Deployment runDeploymentRoot="_fv-az1242-41_2024-08-08_09_54_43" />
   </TestSettings>
   <Results>
-    <UnitTestResult executionId="615d1bc9-fa34-477c-923a-2a421900136f" testId="00ff9f7c-a118-0f3d-24e9-77b6f65125f7" testName="Subtract two numbers" computerName="fv-az520-176" duration="00:00:00.1217587" startTime="2024-08-08T06:32:26.1169305+00:00" endTime="2024-08-08T06:32:26.1169717+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="615d1bc9-fa34-477c-923a-2a421900136f">
-      <Output>
-        <StdOut>Given the first number is 120
--&gt; done: CalculatorStepDefinitions.GivenTheFirstNumberIs(120) (0.0s)
-And the second number is 70
--&gt; done: CalculatorStepDefinitions.GivenTheSecondNumberIs(70) (0.0s)
-When the two numbers are subtracted
--&gt; done: CalculatorStepDefinitions.WhenTheTwoNumbersAreSubtracted() (0.0s)
-Then the result should be 50
--&gt; done: CalculatorStepDefinitions.ThenTheResultShouldBe(50) (0.0s)</StdOut>
-      </Output>
-    </UnitTestResult>
-    <UnitTestResult executionId="b12118b4-3325-4157-8080-09a07e2eaa01" testId="d7e86b81-3b21-ff4c-6751-c1e858bcd0d8" testName="Add two numbers" computerName="fv-az520-176" duration="00:00:00.0014739" startTime="2024-08-08T06:32:26.1208644+00:00" endTime="2024-08-08T06:32:26.1208647+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b12118b4-3325-4157-8080-09a07e2eaa01">
+    <UnitTestResult executionId="4a1c0351-41bd-44fd-9b17-b9ebe9905e5e" testId="d7e86b81-3b21-ff4c-6751-c1e858bcd0d8" testName="Add two numbers" computerName="fv-az1242-41" duration="00:00:00.0014418" startTime="2024-08-08T09:54:42.8965755+00:00" endTime="2024-08-08T09:54:42.8965759+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4a1c0351-41bd-44fd-9b17-b9ebe9905e5e">
       <Output>
         <StdOut>Given the first number is 50
 -&gt; done: CalculatorStepDefinitions.GivenTheFirstNumberIs(50) (0.0s)
@@ -29,20 +17,32 @@ Then the result should be 120
 -&gt; done: CalculatorStepDefinitions.ThenTheResultShouldBe(120) (0.0s)</StdOut>
       </Output>
     </UnitTestResult>
+    <UnitTestResult executionId="46332b12-76ea-4703-ac17-2010aba3410b" testId="00ff9f7c-a118-0f3d-24e9-77b6f65125f7" testName="Subtract two numbers" computerName="fv-az1242-41" duration="00:00:00.1156823" startTime="2024-08-08T09:54:42.8926539+00:00" endTime="2024-08-08T09:54:42.8926750+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="46332b12-76ea-4703-ac17-2010aba3410b">
+      <Output>
+        <StdOut>Given the first number is 120
+-&gt; done: CalculatorStepDefinitions.GivenTheFirstNumberIs(120) (0.0s)
+And the second number is 70
+-&gt; done: CalculatorStepDefinitions.GivenTheSecondNumberIs(70) (0.0s)
+When the two numbers are subtracted
+-&gt; done: CalculatorStepDefinitions.WhenTheTwoNumbersAreSubtracted() (0.0s)
+Then the result should be 50
+-&gt; done: CalculatorStepDefinitions.ThenTheResultShouldBe(50) (0.0s)</StdOut>
+      </Output>
+    </UnitTestResult>
   </Results>
   <TestDefinitions>
     <UnitTest name="Subtract two numbers" storage="/home/runner/work/specflow-calculator/specflow-calculator/specflowcalculator.specs/bin/release/netcoreapp3.1/specflowcalculator.specs.dll" id="00ff9f7c-a118-0f3d-24e9-77b6f65125f7">
-      <Execution id="615d1bc9-fa34-477c-923a-2a421900136f" />
+      <Execution id="46332b12-76ea-4703-ac17-2010aba3410b" />
       <TestMethod codeBase="/home/runner/work/specflow-calculator/specflow-calculator/SpecFlowCalculator.Specs/bin/Release/netcoreapp3.1/SpecFlowCalculator.Specs.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="SpecFlowCalculator.Specs.CalculatorFeature" name="SubtractTwoNumbers" />
     </UnitTest>
     <UnitTest name="Add two numbers" storage="/home/runner/work/specflow-calculator/specflow-calculator/specflowcalculator.specs/bin/release/netcoreapp3.1/specflowcalculator.specs.dll" id="d7e86b81-3b21-ff4c-6751-c1e858bcd0d8">
-      <Execution id="b12118b4-3325-4157-8080-09a07e2eaa01" />
+      <Execution id="4a1c0351-41bd-44fd-9b17-b9ebe9905e5e" />
       <TestMethod codeBase="/home/runner/work/specflow-calculator/specflow-calculator/SpecFlowCalculator.Specs/bin/Release/netcoreapp3.1/SpecFlowCalculator.Specs.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="SpecFlowCalculator.Specs.CalculatorFeature" name="AddTwoNumbers" />
     </UnitTest>
   </TestDefinitions>
   <TestEntries>
-    <TestEntry testId="00ff9f7c-a118-0f3d-24e9-77b6f65125f7" executionId="615d1bc9-fa34-477c-923a-2a421900136f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="d7e86b81-3b21-ff4c-6751-c1e858bcd0d8" executionId="b12118b4-3325-4157-8080-09a07e2eaa01" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d7e86b81-3b21-ff4c-6751-c1e858bcd0d8" executionId="4a1c0351-41bd-44fd-9b17-b9ebe9905e5e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="00ff9f7c-a118-0f3d-24e9-77b6f65125f7" executionId="46332b12-76ea-4703-ac17-2010aba3410b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
   </TestEntries>
   <TestLists>
     <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
@@ -52,7 +52,7 @@ Then the result should be 120
     <Counters total="2" executed="2" passed="2" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
     <Output>
       <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.4.3+1b45f5407b (64-bit .NET Core 3.1.32)
-[xUnit.net 00:00:00.50]   Discovering: SpecFlowCalculator.Specs
+[xUnit.net 00:00:00.49]   Discovering: SpecFlowCalculator.Specs
 [xUnit.net 00:00:00.55]   Discovered:  SpecFlowCalculator.Specs
 [xUnit.net 00:00:00.55]   Starting:    SpecFlowCalculator.Specs
 [xUnit.net 00:00:01.08]   Finished:    SpecFlowCalculator.Specs
