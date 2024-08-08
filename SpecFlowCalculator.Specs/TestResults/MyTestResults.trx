@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<TestRun id="46b735c5-f890-47b1-88d1-c4cb1634c070" name="@fv-az1427-954 2024-03-21 05:23:25" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
-  <Times creation="2024-03-21T05:23:25.0185202+00:00" queuing="2024-03-21T05:23:25.0185203+00:00" start="2024-03-21T05:23:22.5300534+00:00" finish="2024-03-21T05:23:25.0260929+00:00" />
-  <TestSettings name="default" id="861ff436-9907-48bb-9e35-830fb38d0718">
-    <Deployment runDeploymentRoot="_fv-az1427-954_2024-03-21_05_23_25" />
+<TestRun id="34336b4e-c2a8-4c7f-a250-bd843fd79e50" name="@fv-az1242-41 2024-08-08 09:54:43" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2024-08-08T09:54:43.3215918+00:00" queuing="2024-08-08T09:54:43.3215919+00:00" start="2024-08-08T09:54:40.8163820+00:00" finish="2024-08-08T09:54:43.3291507+00:00" />
+  <TestSettings name="default" id="01a7409b-b4d3-4a9e-9211-02e5b5e1eadf">
+    <Deployment runDeploymentRoot="_fv-az1242-41_2024-08-08_09_54_43" />
   </TestSettings>
   <Results>
-    <UnitTestResult executionId="ed83dc9b-ce63-4e5d-8577-816c60a07f9e" testId="d7e86b81-3b21-ff4c-6751-c1e858bcd0d8" testName="Add two numbers" computerName="fv-az1427-954" duration="00:00:00.0015245" startTime="2024-03-21T05:23:24.2522570+00:00" endTime="2024-03-21T05:23:24.2522574+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ed83dc9b-ce63-4e5d-8577-816c60a07f9e">
+    <UnitTestResult executionId="4a1c0351-41bd-44fd-9b17-b9ebe9905e5e" testId="d7e86b81-3b21-ff4c-6751-c1e858bcd0d8" testName="Add two numbers" computerName="fv-az1242-41" duration="00:00:00.0014418" startTime="2024-08-08T09:54:42.8965755+00:00" endTime="2024-08-08T09:54:42.8965759+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4a1c0351-41bd-44fd-9b17-b9ebe9905e5e">
       <Output>
         <StdOut>Given the first number is 50
 -&gt; done: CalculatorStepDefinitions.GivenTheFirstNumberIs(50) (0.0s)
@@ -17,7 +17,7 @@ Then the result should be 120
 -&gt; done: CalculatorStepDefinitions.ThenTheResultShouldBe(120) (0.0s)</StdOut>
       </Output>
     </UnitTestResult>
-    <UnitTestResult executionId="e86edeb5-b9f0-46ae-b405-f5989f1ea987" testId="00ff9f7c-a118-0f3d-24e9-77b6f65125f7" testName="Subtract two numbers" computerName="fv-az1427-954" duration="00:00:00.1768132" startTime="2024-03-21T05:23:24.2482992+00:00" endTime="2024-03-21T05:23:24.2483214+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e86edeb5-b9f0-46ae-b405-f5989f1ea987">
+    <UnitTestResult executionId="46332b12-76ea-4703-ac17-2010aba3410b" testId="00ff9f7c-a118-0f3d-24e9-77b6f65125f7" testName="Subtract two numbers" computerName="fv-az1242-41" duration="00:00:00.1156823" startTime="2024-08-08T09:54:42.8926539+00:00" endTime="2024-08-08T09:54:42.8926750+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="46332b12-76ea-4703-ac17-2010aba3410b">
       <Output>
         <StdOut>Given the first number is 120
 -&gt; done: CalculatorStepDefinitions.GivenTheFirstNumberIs(120) (0.0s)
@@ -32,17 +32,17 @@ Then the result should be 50
   </Results>
   <TestDefinitions>
     <UnitTest name="Subtract two numbers" storage="/home/runner/work/specflow-calculator/specflow-calculator/specflowcalculator.specs/bin/release/netcoreapp3.1/specflowcalculator.specs.dll" id="00ff9f7c-a118-0f3d-24e9-77b6f65125f7">
-      <Execution id="e86edeb5-b9f0-46ae-b405-f5989f1ea987" />
+      <Execution id="46332b12-76ea-4703-ac17-2010aba3410b" />
       <TestMethod codeBase="/home/runner/work/specflow-calculator/specflow-calculator/SpecFlowCalculator.Specs/bin/Release/netcoreapp3.1/SpecFlowCalculator.Specs.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="SpecFlowCalculator.Specs.CalculatorFeature" name="SubtractTwoNumbers" />
     </UnitTest>
     <UnitTest name="Add two numbers" storage="/home/runner/work/specflow-calculator/specflow-calculator/specflowcalculator.specs/bin/release/netcoreapp3.1/specflowcalculator.specs.dll" id="d7e86b81-3b21-ff4c-6751-c1e858bcd0d8">
-      <Execution id="ed83dc9b-ce63-4e5d-8577-816c60a07f9e" />
+      <Execution id="4a1c0351-41bd-44fd-9b17-b9ebe9905e5e" />
       <TestMethod codeBase="/home/runner/work/specflow-calculator/specflow-calculator/SpecFlowCalculator.Specs/bin/Release/netcoreapp3.1/SpecFlowCalculator.Specs.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="SpecFlowCalculator.Specs.CalculatorFeature" name="AddTwoNumbers" />
     </UnitTest>
   </TestDefinitions>
   <TestEntries>
-    <TestEntry testId="d7e86b81-3b21-ff4c-6751-c1e858bcd0d8" executionId="ed83dc9b-ce63-4e5d-8577-816c60a07f9e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="00ff9f7c-a118-0f3d-24e9-77b6f65125f7" executionId="e86edeb5-b9f0-46ae-b405-f5989f1ea987" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d7e86b81-3b21-ff4c-6751-c1e858bcd0d8" executionId="4a1c0351-41bd-44fd-9b17-b9ebe9905e5e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="00ff9f7c-a118-0f3d-24e9-77b6f65125f7" executionId="46332b12-76ea-4703-ac17-2010aba3410b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
   </TestEntries>
   <TestLists>
     <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
@@ -52,10 +52,10 @@ Then the result should be 50
     <Counters total="2" executed="2" passed="2" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
     <Output>
       <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.4.3+1b45f5407b (64-bit .NET Core 3.1.32)
-[xUnit.net 00:00:00.51]   Discovering: SpecFlowCalculator.Specs
-[xUnit.net 00:00:00.56]   Discovered:  SpecFlowCalculator.Specs
-[xUnit.net 00:00:00.56]   Starting:    SpecFlowCalculator.Specs
-[xUnit.net 00:00:01.22]   Finished:    SpecFlowCalculator.Specs
+[xUnit.net 00:00:00.49]   Discovering: SpecFlowCalculator.Specs
+[xUnit.net 00:00:00.55]   Discovered:  SpecFlowCalculator.Specs
+[xUnit.net 00:00:00.55]   Starting:    SpecFlowCalculator.Specs
+[xUnit.net 00:00:01.08]   Finished:    SpecFlowCalculator.Specs
 </StdOut>
     </Output>
   </ResultSummary>
