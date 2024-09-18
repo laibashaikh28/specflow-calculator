@@ -1308,7 +1308,10 @@
       },
       "SpecFlowCalculator/1.0.0": {
         "runtime": {
-          "SpecFlowCalculator.dll": {}
+          "SpecFlowCalculator.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
