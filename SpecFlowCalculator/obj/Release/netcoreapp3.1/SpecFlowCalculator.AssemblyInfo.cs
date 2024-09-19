@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SpecFlowCalculator")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8b7d74f22e8476739fbbce9d44510d4cb0e9e5e1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+03330555fd3b7dc2647fde42c155ec5e99fbdad2")]
 [assembly: System.Reflection.AssemblyProductAttribute("SpecFlowCalculator")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SpecFlowCalculator")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
